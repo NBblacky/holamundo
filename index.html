@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>   
+<head> 
+    <title>Mi pimera web</title>
+    <style>
+        table, th,td {
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <table style="width:500px;">
+        <thead>
+             <tr>
+                <th>Producto</th>  
+                <th>Precio</th>  
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>Dinosaurio fran</td>
+                <td>Gratis</td>  
+            </tr>
+            <tr>
+                <td>Hola beats</td>
+                <td>Total: 19.90$</td>  
+            </tr>
+         </tbody>
+         <tfoot>
+            <td></td>
+            <td>Total: 19.90$</td>
+         </tfoot>
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3 </li>
+        <li>Elemento 4</li>
+    </ul>  
+    <!--ul es lista ordenada--> 
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3 </li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">Sub elemento 1</li>
+                <li style="list-style-type: lower-alpha ;">Sub elemento 2</li>
+                <li style="list-style-type: lower-alpha ;">Sub elemento 3</li>
+            
+            </ol>
+        </li>
+    </ol>
+     
+    <form action="/formulario" method="POST">
+        <label for="Nombre">Nombre</label>
+        <input value="Dinosaurio" type="text"id="Nombre" name="lala" placeholder="Nombre"/>
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input value="Pancho" type="text"id="Apellido" name="Apellido" placeholder="Apellido"/>
+        <br>
+        <label for="Comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">Este es un valor por defecto</textarea>
+        <br>
+        <button type="button"><img scr="img/dinosaurio.png.jpg">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Developer Nicole Granadino</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi dinosaurio chiquito</h6>
+    <p> Un dinosaurio chiquito era muy chiquito.</p>
+    <p> hasta que un dia se comio una manzana.</p>
+    <h2> El dinosaurio Pancho</h2>
+    <hr>
+    <p>El dinosaurio pancho <span style="color:blueviolet">es el mas panzon de los panzones</span>, le
+             gusta comer muchas sandias. <br> sus patitas huelen a quesito y le gusta bailar.
+    <a target="_blank" href="https://www.youtube.com/watch?v=yxAh81yfXAk">click aqui para ver el video </a>
+        
+    </p>
+        <!-- este texto es un secreto
+        pinche pulgoso-->
+    <img src="/img/dinosaurio2.png.png"/>
+         
+
+    
+</body>
+</html>
